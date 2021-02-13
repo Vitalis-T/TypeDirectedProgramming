@@ -1,0 +1,4 @@
+[debug] [type_directedpr-test] Classpath dependencies List()
+[debug] [type_directedpr-test] Dependencies from configurations List(type_directedpr)
+[debug] Bloop wrote the configuration of project 'type_directedpr-test' to '/home/vitalis/type_directedPR/.bloop/type_directedpr-test.json'
+[success] Generated .bloop/type_directedpr-test.json

@@ -1,0 +1,3 @@
+[debug] > Exec(__stopWatch network-7, None, None)
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [true,null])
+[debug] > Exec(shell, None, None)

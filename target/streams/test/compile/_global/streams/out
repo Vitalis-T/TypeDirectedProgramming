@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/vitalis/type_directedPR/src/test/scala/TestSuite.scala:4:25: not found: type AnyFunSuite[0m[0J
+[0m[[0m[31merror[0m] [0m[0mclass TestSuite extends AnyFunSuite with DiagrammedAssertions {[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/home/vitalis/type_directedPR/src/test/scala/TestSuite.scala:5:2: not found: value test[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	test("Hello should start with H") {[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/home/vitalis/type_directedPR/src/test/scala/TestSuite.scala:9:2: not found: value test[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	test("An empty Set should have size 0") {[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/home/vitalis/type_directedPR/src/test/scala/TestSuite.scala:13:3: not found: value test[0m[0J
+[0m[[0m[31merror[0m] [0m[0m  test("Invoking head on an empty Set should produce NoSuchElementException") {[0m[0J
+[0m[[0m[31merror[0m] [0m[0m  ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m[0J

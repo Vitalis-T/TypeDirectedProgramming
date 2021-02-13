@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(8aaeb575-c0d7-41c3-9420-d7c49c77e112), Some(CommandSource(console0)))[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/vitalis/type_directedPR/target/scala-2.12/classes ...[0m[0J
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 5 s, completed Dec 24, 2020, 6:22:37 PM[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m[0J

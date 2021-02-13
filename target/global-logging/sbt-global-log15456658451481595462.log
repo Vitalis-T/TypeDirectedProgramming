@@ -1,0 +1,4 @@
+[debug] > Exec(__stopWatch network-3, None, None)
+[debug] > Exec(shell, None, None)
+[debug] Forcing garbage collection...
+[info] shutting down sbt server
