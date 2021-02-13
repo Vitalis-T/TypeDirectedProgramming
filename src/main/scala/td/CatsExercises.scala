@@ -106,3 +106,4 @@ object BooleanMonoids {
 		println(add(ordersList))
 	}
 }
+
