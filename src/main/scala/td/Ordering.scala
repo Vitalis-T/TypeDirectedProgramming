@@ -5,6 +5,7 @@ trait Ordering[A] {
 	def compare(a1: A, a2: A): Int
 }
 
+// Instances of the Ordering type class
 object Ordering {
 	implicit val Int: Ordering[Int] = 
 		new Ordering[Int] {
