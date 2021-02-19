@@ -69,5 +69,5 @@ object PrintableTypeClass {
 				println(format(p))
 		}
 	}
-
 }
+
