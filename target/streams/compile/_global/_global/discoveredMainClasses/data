@@ -1,1 +1,1 @@
-["td.BooleanMonoids","td.CatEq","td.MonadUses"]
+["td.CatEq","td.MonadUses","td.MonoidInstances"]

@@ -1,19 +1,22 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(td.RingLawsSpec, org.scalatest.tools.Framework$$anon$1@139fdb6e, false, [SuiteSelector])[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(td.TestSuite, org.scalatest.tools.Framework$$anon$1@139fdb6e, false, [SuiteSelector])[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(td.TypeClassesLawsSpec, org.scalatest.tools.Framework$$anon$1@d02b1ef, false, [SuiteSelector])[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(td.TestSuite, org.scalatest.tools.Framework$$anon$1@d02b1ef, false, [SuiteSelector])[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32mTestSuite:[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- Hello should start with H[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- An empty Set should have size 0[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- Invoking head on an empty Set should produce NoSuchElementException[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[32mRingLawsSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mTypeClassesLawsSpec:[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32mRingLaws[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- should obey associativity law for addition[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- should obey associativity law for multiplication[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- should obey inversion law[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 776 milliseconds.[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mMonoidLaws[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should obey associativity law for combine func[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should obey associativity law for combine func(list)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 593 milliseconds.[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 8[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	td.RingLawsSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	td.TypeClassesLawsSpec[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0m	td.TestSuite[0m[0J

@@ -2,11 +2,11 @@ package td
 import org.scalatest.funsuite.AnyFunSuite
 
 class TestSuite extends AnyFunSuite {
-	test("Hello should start with H") {
-		assert("Hello".startsWith("H"))
-	}
+  test("Hello should start with H") {
+    assert("Hello".startsWith("H"))
+  }
 
-	test("An empty Set should have size 0") {
+  test("An empty Set should have size 0") {
     assert(Set.empty.size == 0)
   }
 
@@ -15,5 +15,4 @@ class TestSuite extends AnyFunSuite {
       Set.empty.head
     }
   }
-
 }

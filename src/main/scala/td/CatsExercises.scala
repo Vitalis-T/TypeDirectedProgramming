@@ -5,6 +5,7 @@ import cats.instances.string._ // for Eq
 import cats.instances.int._ // for Eq
 import cats.instances.option._
 import cats.syntax.semigroup._
+// import cats.kernel.Monoid
 
 object CatEq {
   final case class Cat(name: String, age: Int, color: String)
@@ -35,7 +36,7 @@ object CatEq {
   }
 }
 
-object BooleanMonoids {
+object MonoidInstances {
 
   trait Semigroup[A] {
     def combine(x: A, y: A): A
@@ -51,12 +52,31 @@ object BooleanMonoids {
     def apply[A](implicit monoid: Monoid[A]) = 
       monoid
 
+  implicit val intMonoid: Monoid[Int] = 
+    new Monoid[Int] {
+      def combine(x: Int, y: Int): Int = x + y
+      def empty: Int = 0
+    }
+
+  implicit val stringMonoid: Monoid[String] = 
+    new Monoid[String] {
+      def combine(x: String, y: String): String = x ++ y
+      def empty: String = ""
+    }
+
   implicit val booleanAndMonoid: Monoid[Boolean] = 
     new Monoid[Boolean] {
       def combine(x: Boolean, y: Boolean): Boolean = x && y
 
       def empty: Boolean = true
     }
+
+  implicit def listMonoid[A]: Monoid[List[A]] = 
+    new Monoid[List[A]] {
+      def combine(x: List[A], y: List[A]): List[A] = x ++ y
+
+      def empty: List[A] = Nil
+    } 
 
   implicit val booleanOrMonoid: Monoid[Boolean] = 
     new Monoid[Boolean]{
@@ -104,6 +124,18 @@ object BooleanMonoids {
     val order3 = Order(250.0, 10.0)
     val ordersList = List(order1, order2, order3)
     println(add(ordersList))
+  }
+}
+
+object MonoidLaws {
+  import MonoidInstances._
+
+  def associativeLaw[A](x: A, y: A, z: A)(implicit m: Monoid[A]): Boolean =
+    m.combine(x, m.combine(y, z)) == m.combine(m.combine(x, y), z)
+
+  def identityLaw[A](x: A)(implicit m: Monoid[A]): Boolean = {
+    (m.combine(x, m.empty) == x) &&
+      (m.combine(m.empty, x) == x)
   }
 }
 

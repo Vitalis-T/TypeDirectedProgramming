@@ -161,9 +161,4 @@ infers the left parameter as Nothing.
     }.value
 
   // foldRight((1 to 1000000).toList, 0L)(_ + _)
-
-  def func1[A, B](a: A, b: B): B = b
-  val f = func1(4, _: Int)
-
-
 }
