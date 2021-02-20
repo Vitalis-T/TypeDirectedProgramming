@@ -1,4 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0m/home/vitalis/type_directedPR/src/main/scala/td/CatsFistUsing.scala:11:31: not found: type Show[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	def show[A](f: A => String): Show[A] = [0m[0J
-[0m[[0m[31merror[0m] [0m[0m	                             ^[0m[0J
-[0m[[0m[31merror[0m] [0m[0mone error found[0m[0J
+[0m[[0m[33mwarn[0m] [0m[0mthere was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m[0J
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m[0J

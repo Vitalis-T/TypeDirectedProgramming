@@ -2,35 +2,48 @@
     "version": "1.4.0",
     "project": {
         "name": "type_directedpr-test",
-        "directory": "/home/vitalis/type_directedPR",
-        "workspaceDir": "/home/vitalis/type_directedPR",
+        "directory": "/home/vitalis/repos/type_directedPR",
+        "workspaceDir": "/home/vitalis/repos/type_directedPR",
         "sources": [
-            "/home/vitalis/type_directedPR/src/test/scala",
-            "/home/vitalis/type_directedPR/src/test/scala-2.13",
-            "/home/vitalis/type_directedPR/src/test/scala-2",
-            "/home/vitalis/type_directedPR/src/test/java",
-            "/home/vitalis/type_directedPR/target/scala-2.13/src_managed/test"
+            "/home/vitalis/repos/type_directedPR/src/test/scala",
+            "/home/vitalis/repos/type_directedPR/src/test/scala-2.13",
+            "/home/vitalis/repos/type_directedPR/src/test/scala-2",
+            "/home/vitalis/repos/type_directedPR/src/test/java",
+            "/home/vitalis/repos/type_directedPR/target/scala-2.13/src_managed/test"
         ],
         "dependencies": [
             "type_directedpr"
         ],
         "classpath": [
-            "/home/vitalis/type_directedPR/.bloop/type_directedpr/scala-2.13/classes",
+            "/home/vitalis/repos/type_directedPR/.bloop/type_directedpr/scala-2.13/classes",
             "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
-            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.1.0/scalatest_2.13-3.1.0.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.2.2/scalatest_2.13-3.2.2.jar",
             "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.1.1/cats-core_2.13-2.1.1.jar",
-            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.1.0/scalatest-compatible-3.1.0.jar",
-            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.0/scalactic_2.13-3.1.0.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_2.13/3.2.2/scalatest-core_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.13/3.2.2/scalatest-featurespec_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.13/3.2.2/scalatest-flatspec_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.13/3.2.2/scalatest-freespec_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.13/3.2.2/scalatest-funsuite_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.13/3.2.2/scalatest-funspec_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.13/3.2.2/scalatest-propspec_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.13/3.2.2/scalatest-refspec_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.13/3.2.2/scalatest-wordspec_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.13/3.2.2/scalatest-diagrams_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.13/3.2.2/scalatest-matchers-core_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.13/3.2.2/scalatest-shouldmatchers_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.13/3.2.2/scalatest-mustmatchers_2.13-3.2.2.jar",
             "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
-            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar",
             "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.1.1/cats-macros_2.13-2.1.1.jar",
-            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.1.1/cats-kernel_2.13-2.1.1.jar"
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.1.1/cats-kernel_2.13-2.1.1.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.2/scalatest-compatible-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.2.2/scalactic_2.13-3.2.2.jar",
+            "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar"
         ],
-        "out": "/home/vitalis/type_directedPR/.bloop/type_directedpr",
-        "classesDir": "/home/vitalis/type_directedPR/.bloop/type_directedpr/scala-2.13/test-classes",
+        "out": "/home/vitalis/repos/type_directedPR/.bloop/type_directedpr",
+        "classesDir": "/home/vitalis/repos/type_directedPR/.bloop/type_directedpr/scala-2.13/test-classes",
         "resources": [
-            "/home/vitalis/type_directedPR/src/test/resources",
-            "/home/vitalis/type_directedPR/target/scala-2.13/resource_managed/test"
+            "/home/vitalis/repos/type_directedPR/src/test/resources",
+            "/home/vitalis/repos/type_directedPR/target/scala-2.13/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -46,7 +59,7 @@
                 "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
                 "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
             ],
-            "analysis": "/home/vitalis/type_directedPR/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
+            "analysis": "/home/vitalis/repos/type_directedPR/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -105,7 +118,7 @@
             "config": {
                 "home": "/usr/lib/jvm/java-11-openjdk-amd64",
                 "options": [
-                    "-Duser.dir=/home/vitalis/type_directedPR"
+                    "-Duser.dir=/home/vitalis/repos/type_directedPR"
                 ]
             },
             "mainClass": [
@@ -219,51 +232,272 @@
                 {
                     "organization": "org.scalatest",
                     "name": "scalatest_2.13",
-                    "version": "3.1.0",
+                    "version": "3.2.2",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "scalatest_2.13",
-                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.1.0/scalatest_2.13-3.1.0.jar"
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.2.2/scalatest_2.13-3.2.2.jar"
                         },
                         {
                             "name": "scalatest_2.13",
                             "classifier": "sources",
-                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.1.0/scalatest_2.13-3.1.0-sources.jar"
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.2.2/scalatest_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-core_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-core_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_2.13/3.2.2/scalatest-core_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_2.13/3.2.2/scalatest-core_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-featurespec_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-featurespec_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.13/3.2.2/scalatest-featurespec_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-featurespec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.13/3.2.2/scalatest-featurespec_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-flatspec_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-flatspec_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.13/3.2.2/scalatest-flatspec_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-flatspec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.13/3.2.2/scalatest-flatspec_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-freespec_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-freespec_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.13/3.2.2/scalatest-freespec_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-freespec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.13/3.2.2/scalatest-freespec_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funsuite_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funsuite_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.13/3.2.2/scalatest-funsuite_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-funsuite_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.13/3.2.2/scalatest-funsuite_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funspec_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funspec_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.13/3.2.2/scalatest-funspec_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-funspec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.13/3.2.2/scalatest-funspec_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-propspec_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-propspec_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.13/3.2.2/scalatest-propspec_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-propspec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.13/3.2.2/scalatest-propspec_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-refspec_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-refspec_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.13/3.2.2/scalatest-refspec_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-refspec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.13/3.2.2/scalatest-refspec_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-wordspec_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-wordspec_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.13/3.2.2/scalatest-wordspec_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-wordspec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.13/3.2.2/scalatest-wordspec_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-diagrams_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-diagrams_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.13/3.2.2/scalatest-diagrams_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-diagrams_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.13/3.2.2/scalatest-diagrams_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-matchers-core_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-matchers-core_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.13/3.2.2/scalatest-matchers-core_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-matchers-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.13/3.2.2/scalatest-matchers-core_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-shouldmatchers_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-shouldmatchers_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.13/3.2.2/scalatest-shouldmatchers_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-shouldmatchers_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.13/3.2.2/scalatest-shouldmatchers_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-mustmatchers_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-mustmatchers_2.13",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.13/3.2.2/scalatest-mustmatchers_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-mustmatchers_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.13/3.2.2/scalatest-mustmatchers_2.13-3.2.2-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.scalatest",
                     "name": "scalatest-compatible",
-                    "version": "3.1.0",
+                    "version": "3.2.2",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "scalatest-compatible",
-                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.1.0/scalatest-compatible-3.1.0.jar"
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.2/scalatest-compatible-3.2.2.jar"
                         },
                         {
                             "name": "scalatest-compatible",
                             "classifier": "sources",
-                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.1.0/scalatest-compatible-3.1.0-sources.jar"
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.2/scalatest-compatible-3.2.2-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.scalactic",
                     "name": "scalactic_2.13",
-                    "version": "3.1.0",
+                    "version": "3.2.2",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "scalactic_2.13",
-                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.0/scalactic_2.13-3.1.0.jar"
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.2.2/scalactic_2.13-3.2.2.jar"
                         },
                         {
                             "name": "scalactic_2.13",
                             "classifier": "sources",
-                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.0/scalactic_2.13-3.1.0-sources.jar"
+                            "path": "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.2.2/scalactic_2.13-3.2.2-sources.jar"
                         }
                     ]
                 },

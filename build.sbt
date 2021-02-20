@@ -4,7 +4,7 @@ ThisBuild / scalaVersion := "2.13.1"
 
 ThisBuild / organization := "com.td"
 
-val scalaTest = "org.scalatest" %% "scalatest" % "3.1.0"
+val scalaTest = "org.scalatest" %% "scalatest" % "3.2.2"
 
 libraryDependencies ++= Seq(
   scalaTest % Test,

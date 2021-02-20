@@ -2,14 +2,14 @@
     "version": "1.4.0",
     "project": {
         "name": "type_directedpr",
-        "directory": "/home/vitalis/type_directedPR",
-        "workspaceDir": "/home/vitalis/type_directedPR",
+        "directory": "/home/vitalis/repos/type_directedPR",
+        "workspaceDir": "/home/vitalis/repos/type_directedPR",
         "sources": [
-            "/home/vitalis/type_directedPR/src/main/scala",
-            "/home/vitalis/type_directedPR/src/main/scala-2.13",
-            "/home/vitalis/type_directedPR/src/main/scala-2",
-            "/home/vitalis/type_directedPR/src/main/java",
-            "/home/vitalis/type_directedPR/target/scala-2.13/src_managed/main"
+            "/home/vitalis/repos/type_directedPR/src/main/scala",
+            "/home/vitalis/repos/type_directedPR/src/main/scala-2.13",
+            "/home/vitalis/repos/type_directedPR/src/main/scala-2",
+            "/home/vitalis/repos/type_directedPR/src/main/java",
+            "/home/vitalis/repos/type_directedPR/target/scala-2.13/src_managed/main"
         ],
         "dependencies": [
             
@@ -20,11 +20,11 @@
             "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.1.1/cats-macros_2.13-2.1.1.jar",
             "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.1.1/cats-kernel_2.13-2.1.1.jar"
         ],
-        "out": "/home/vitalis/type_directedPR/.bloop/type_directedpr",
-        "classesDir": "/home/vitalis/type_directedPR/.bloop/type_directedpr/scala-2.13/classes",
+        "out": "/home/vitalis/repos/type_directedPR/.bloop/type_directedpr",
+        "classesDir": "/home/vitalis/repos/type_directedPR/.bloop/type_directedpr/scala-2.13/classes",
         "resources": [
-            "/home/vitalis/type_directedPR/src/main/resources",
-            "/home/vitalis/type_directedPR/target/scala-2.13/resource_managed/main"
+            "/home/vitalis/repos/type_directedPR/src/main/resources",
+            "/home/vitalis/repos/type_directedPR/target/scala-2.13/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -40,7 +40,7 @@
                 "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
                 "/home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
             ],
-            "analysis": "/home/vitalis/type_directedPR/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
+            "analysis": "/home/vitalis/repos/type_directedPR/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -99,7 +99,7 @@
             "config": {
                 "home": "/usr/lib/jvm/java-11-openjdk-amd64",
                 "options": [
-                    "-Duser.dir=/home/vitalis/type_directedPR"
+                    "-Duser.dir=/home/vitalis/repos/type_directedPR"
                 ]
             },
             "mainClass": [
